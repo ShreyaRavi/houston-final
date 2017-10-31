@@ -2,9 +2,6 @@ package org.teamresistance.frc.io;
 
 import edu.wpi.first.wpilibj.Solenoid;
 
-/**
- * @author Shreya Ravi
- */
 public class InvertibleSolenoid implements SingleSolenoid {
 
   private final Solenoid solenoid;

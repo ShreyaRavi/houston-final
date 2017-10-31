@@ -11,9 +11,6 @@ import org.teamresistance.frc.util.Util;
 
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-/**
- * Created by ShReYa on 2/20/2017.
- */
 public class Teleop {
 
 	private Climber climber;

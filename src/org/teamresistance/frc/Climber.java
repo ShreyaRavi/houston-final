@@ -4,9 +4,7 @@ import org.teamresistance.frc.io.IO;
 import org.teamresistance.frc.util.JoystickIO;
 import org.teamresistance.frc.util.Time;
 
-/**
- * Created by shrey on 2/20/2017.
- */
+
 public class Climber {
 
   private double prevTime;

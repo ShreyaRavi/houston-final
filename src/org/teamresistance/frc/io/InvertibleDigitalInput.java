@@ -2,9 +2,6 @@ package org.teamresistance.frc.io;
 
 import edu.wpi.first.wpilibj.DigitalInput;
 
-/**
- * @author Shreya Ravi
- */
 public class InvertibleDigitalInput {
   private final DigitalInput limitSwitch;
   private final boolean isInverted;

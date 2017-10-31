@@ -9,9 +9,6 @@ import edu.wpi.cscore.AxisCamera;
 import edu.wpi.cscore.UsbCamera;
 import edu.wpi.first.wpilibj.*;
 
-/**
- * Created by Shreya on 2/20/2017.
- */
 public class IO {
 
 	public static double VIBRATOR_SPEED = 0.6;

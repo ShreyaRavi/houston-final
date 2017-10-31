@@ -1,8 +1,5 @@
 package org.teamresistance.frc.io;
 
-/**
- * @author Shreya Ravi
- */
 public class InvertibleSolenoidWithPosition extends InvertibleSolenoid {
 
   private final InvertibleDigitalInput retractedLimit;

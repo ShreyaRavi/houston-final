@@ -14,9 +14,6 @@ import com.ctre.CANTalon.TalonControlMode;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.vision.VisionThread;
 
-/**
- * Created by Shreya on 2/20/2017.
- */
 public class Shooter {
 
 	private static Shooter instance;

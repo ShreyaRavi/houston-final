@@ -2,9 +2,6 @@ package org.teamresistance.frc.util.joystick;
 
 import edu.wpi.first.wpilibj.Joystick;
 
-/**
- * @author Frank McCoy
- */
 public class CodriverBox {
 
   private Joystick input;
