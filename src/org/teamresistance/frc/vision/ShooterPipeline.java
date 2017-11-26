@@ -45,14 +45,14 @@ public class ShooterPipeline implements VisionPipeline {
 		// Step Blur0:
 		Mat blurInput = resizeImageOutput;
 		BlurType blurType = BlurType.get("Box Blur");
-		double blurRadius = 6.34880163;
+		double blurRadius = 5;
 		blur(blurInput, blurType, blurRadius, blurOutput);
 
 		// Step HSL_Threshold0:
 		Mat hslThresholdInput = blurOutput;
-		double[] hslThresholdHue = {54, 104};
-		double[] hslThresholdSaturation = {175, 255.0};
-		double[] hslThresholdLuminance = {20, 80};
+		double[] hslThresholdHue = {45, 135};
+		double[] hslThresholdSaturation = {174, 255};
+		double[] hslThresholdLuminance = {28, 131};
 		hslThreshold(hslThresholdInput, hslThresholdHue, hslThresholdSaturation, hslThresholdLuminance, hslThresholdOutput);
 
 		// Step Find_Contours0:

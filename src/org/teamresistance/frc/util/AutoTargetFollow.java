@@ -43,6 +43,9 @@ public class AutoTargetFollow {
 			done = false; 
 		}
 		double result = 0;
+		
+		
+		
 		if(error > 0) result = Constants.MIN_ROTATE_SPEED_NEG;
 		else if(error < 0) result = Constants.MIN_ROTATE_SPEED_POS;
 		
