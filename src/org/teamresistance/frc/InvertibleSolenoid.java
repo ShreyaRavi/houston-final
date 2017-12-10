@@ -1,4 +1,4 @@
-package org.teamresistance.frc.io;
+package org.teamresistance.frc;
 
 import edu.wpi.first.wpilibj.Solenoid;
 
@@ -18,11 +18,6 @@ public class InvertibleSolenoid implements SingleSolenoid {
 
   @Override
   public void extend() {
-	  if (isInverted) {
-		  solenoid.set(false);
-	  } else {
-		  solenoid.set(true);
-	  }
     solenoid.set(!isInverted);
   }
 
